@@ -24,6 +24,7 @@ Output: 0
 Explanation: There is no such common subsequence, so the result is 0.
 
 Solution:
+<pre>
 // normal lcs code
 class Solution {
 public:
@@ -49,3 +50,4 @@ public:
         return LCS(text1.size(),text2.size()); 
     }
 };
+</pre>
